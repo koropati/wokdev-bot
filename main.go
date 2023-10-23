@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	token := "6623288405:AAHpHIlFSFz0kTE9irJ0fz-eAHWgYGTK7cY"
+	token := "xxxxxccccccccxxxxx"
 
 	messageSvc := domain.NewMessageService(infra.NewTelegramService(initBot(token)))
 	bot, err := app.NewBot(token, messageSvc)
